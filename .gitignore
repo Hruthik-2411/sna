@@ -1,0 +1,22 @@
+# Dataset (Twitter content, not redistributable) and synthetic test data
+data/raw/*
+!data/raw/PUT_PHEME_HERE.txt
+data/sample/
+
+# Large intermediate files (rebuilt by run_all.py)
+outputs/processed/
+outputs/results/oof_predictions.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*.docx

@@ -1,0 +1,11 @@
+{
+ "data_dir": "C:\\Users\\palivela hruthik\\Downloads\\sna-misinfo\\sna-misinfo\\data\\raw",
+ "is_sample": false,
+ "n_threads": 6425,
+ "n_tweets": 104582,
+ "main_model": {
+  "A_false_vs_true": "LogReg",
+  "B_rumour_vs_nonrumour": "LogReg"
+ },
+ "runtime_min": 17.8
+}
